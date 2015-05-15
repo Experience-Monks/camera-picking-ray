@@ -2,7 +2,9 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-Creates a picking ray for a 2D/3D camera. Commonly used for mouse interaction in 3D applications.
+Creates a picking ray for a camera. Commonly used for mouse interaction in 2D and 3D games.
+
+The camera is assumed to have a `projection` and `view` matrix, which can be combined and inverted to form `invProjView`. 
 
 ```js
 var origin = [0, 0, 0]
