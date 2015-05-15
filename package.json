@@ -1,6 +1,6 @@
 {
   "name": "camera-picking-ray",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "creates a picking ray for a 2D/3D camera",
   "main": "index.js",
   "license": "MIT",
