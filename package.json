@@ -1,0 +1,52 @@
+{
+  "name": "camera-picking-ray",
+  "version": "1.0.0",
+  "description": "creates a picking ray for a 2D/3D camera",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "camera-unproject": "^1.0.1",
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "gl-mat4": "^1.1.3",
+    "gl-vec3": "^1.0.3",
+    "tape": "^4.0.0",
+    "test-fuzzy-array": "^1.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "pick",
+    "picking",
+    "intersect",
+    "intersection",
+    "ray",
+    "rays",
+    "hit",
+    "test",
+    "unproject",
+    "project",
+    "collision",
+    "mouse",
+    "touch",
+    "2d",
+    "3d",
+    "projection",
+    "perspective"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/camera-picking-ray.git"
+  },
+  "homepage": "https://github.com/Jam3/camera-picking-ray",
+  "bugs": {
+    "url": "https://github.com/Jam3/camera-picking-ray/issues"
+  }
+}
